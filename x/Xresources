@@ -18,5 +18,5 @@ XTerm.vt100.color12: DodgerBlue1
 XTerm.vt100.cursorColor: black
 
 ! font
-XTerm.vt100.faceName: Hack:size=6
+XTerm.vt100.faceName: Hack:size=13
 XTerm.vt100.renderFont: true

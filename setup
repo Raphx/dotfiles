@@ -48,14 +48,6 @@ _log '  gnupg gpg-agent'
 _create "$HOME/.gnupg"
 _link "$CWD/gnupg/gpg-agent.conf" "$HOME/.gnupg/gpg-agent.conf"
 
-_log '  i3wm'
-_create "$HOME/.config/i3"
-_link "$CWD/i3wm/i3-config" "$HOME/.config/i3/config"
-
-_log '  i3wm i3status'
-_create "$HOME/.config/i3status"
-_link "$CWD/i3wm/i3status-config" "$HOME/.config/i3status/config"
-
 _log '  mutt'
 _create "$HOME/.mutt"
 _create "$HOME/.cache/mutt"
@@ -85,6 +77,14 @@ _log '  ssh'
 _create "$HOME/.ssh"
 _link "$CWD/ssh/config" "$HOME/.ssh/config"
 
+_log '  sway'
+_create "$HOME/.config/sway"
+_link "$CWD/sway/sway-config" "$HOME/.config/sway/config"
+
+_log '  sway i3status'
+_create "$HOME/.config/i3status"
+_link "$CWD/sway/i3status-config" "$HOME/.config/i3status/config"
+
 _log '  systemd'
 _create "$HOME/.config/systemd"
 _link "$CWD/systemd/user" "$HOME/.config/systemd/user"
@@ -96,8 +96,6 @@ _log '  vim'
 _link "$CWD/vim/vimrc" "$HOME/.vimrc"
 
 _log '  x'
-_link "$CWD/x/xserverrc" "$HOME/.xserverrc"
-_link "$CWD/x/xinitrc" "$HOME/.xinitrc"
-_link "$CWD/x/Xresources" "$HOME/.Xresources"
+_link "$CWD/x/Xresources" "$HOME/.Xdefaults"
 
 _log 'Done.'

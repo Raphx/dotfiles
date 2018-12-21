@@ -54,7 +54,7 @@ pacman -Qqm > pkglist-aur.txt
 Font configurations are found in multiple locations:
 
  - `fontconfig/fonts.conf` contains global serif, sans-serif, and monospace font configurations for applications that support fontconfig
- - `i3wm/i3-config` for i3 font
+ - `sway/sway-config` for sway compositor font
 
 ### vim plugins
 
