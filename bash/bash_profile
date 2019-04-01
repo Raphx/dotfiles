@@ -25,8 +25,8 @@ export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 # fzf include hidden files and exclude certain directories
 export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
 
-# GTK DPI scaling
-export GDK_SCALE=2
+# Use Wayland for Firefox
+export MOZ_ENABLE_WAYLAND=1
 
 # Input method framework
 export GTK_IM_MODULE=fcitx
