@@ -48,6 +48,10 @@ _log '  gnupg gpg-agent'
 _create "$HOME/.gnupg"
 _link "$CWD/gnupg/gpg-agent.conf" "$HOME/.gnupg/gpg-agent.conf"
 
+_log '  mpv'
+_create "$HOME/.config/mpv"
+_link "$CWD/mpv/mpv.conf" "$HOME/.config/mpv/mpv.conf"
+
 _log '  mutt'
 _create "$HOME/.mutt"
 _create "$HOME/.cache/mutt"
