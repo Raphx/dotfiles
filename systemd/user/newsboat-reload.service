@@ -1,6 +1,0 @@
-[Unit]
-Description=Reload feeds for Newsboat
-
-[Service]
-Type=oneshot
-ExecStart=/usr/bin/newsboat -x reload

@@ -31,10 +31,6 @@ _log '  bin directory'
 _create "$HOME/.local"
 _link "$CWD/bin" "$HOME/.local/bin"
 
-_log '  fontconfig'
-_create "$HOME/.config/fontconfig"
-_link "$CWD/fontconfig/fonts.conf" "$HOME/.config/fontconfig/fonts.conf"
-
 _log '  git'
 _create "$HOME/.config/git"
 _link "$CWD/git/config" "$HOME/.config/git/config"
@@ -47,24 +43,6 @@ _link "$CWD/gnupg/gpg.conf" "$HOME/.gnupg/gpg.conf"
 _log '  gnupg gpg-agent'
 _create "$HOME/.gnupg"
 _link "$CWD/gnupg/gpg-agent.conf" "$HOME/.gnupg/gpg-agent.conf"
-
-_log '  i3wm'
-_create "$HOME/.config/i3"
-_link "$CWD/i3wm/i3-config" "$HOME/.config/i3/config"
-
-_log '  i3wm i3status'
-_create "$HOME/.config/i3status"
-_link "$CWD/i3wm/i3status-config" "$HOME/.config/i3status/config"
-
-_log '  mutt'
-_create "$HOME/.mutt"
-_create "$HOME/.cache/mutt"
-_link "$CWD/mutt/muttrc" "$HOME/.mutt/muttrc"
-
-_log '  newsboat'
-_create "$HOME/.config/newsboat"
-_link "$CWD/newsboat/urls" "$HOME/.config/newsboat/urls"
-_link "$CWD/newsboat/config" "$HOME/.config/newsboat/config"
 
 _log '  pacman'
 _create "$HOME/.config/pacman"
@@ -94,10 +72,5 @@ _link "$CWD/tmux/tmux.conf" "$HOME/.tmux.conf"
 
 _log '  vim'
 _link "$CWD/vim/vimrc" "$HOME/.vimrc"
-
-_log '  x'
-_link "$CWD/x/xserverrc" "$HOME/.xserverrc"
-_link "$CWD/x/xinitrc" "$HOME/.xinitrc"
-_link "$CWD/x/Xresources" "$HOME/.Xresources"
 
 _log 'Done.'

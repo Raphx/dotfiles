@@ -1,6 +1,6 @@
 # Dotfiles
 
-dotfiles for Arch Linux.
+dotfiles for non-graphical Arch Linux in virtual machine.
 
 Setup symlinks:
 
@@ -23,7 +23,6 @@ makepkg -sirc
 Enable user systemd services:
 
 ```
-systemctl --user enable newsboat-reload.timer
 systemctl --user enable ssh-agent.service
 ```
 
@@ -48,13 +47,6 @@ For `pkglist-aur.txt`:
 ```
 pacman -Qqm > pkglist-aur.txt
 ```
-
-### Fonts
-
-Font configurations are found in multiple locations:
-
- - `fontconfig/fonts.conf` contains global serif, sans-serif, and monospace font configurations for applications that support fontconfig
- - `i3wm/i3-config` for i3 font
 
 ### vim plugins
 

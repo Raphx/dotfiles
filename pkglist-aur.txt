@@ -1,7 +1,1 @@
-bcwc-pcie-git
-facetimehd-firmware
-google-chrome
-mbpfan-git
-mpv-light
-shellcheck-static
 tealdeer
