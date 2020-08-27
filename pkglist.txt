@@ -1,6 +1,7 @@
 base
 bash-completion
 blackarch-keyring
+dcfldd
 fd
 fzf
 git
